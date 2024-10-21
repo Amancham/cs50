@@ -2,9 +2,9 @@
 
 def main():
 	# store user input in a str variable 
-	yell = input("")
-	# change str to all lowercase spelling
-	whisper = str.lower(yell)
+	# yell = input("")
+	# change user input str to all lowercase spelling
+	whisper = input("").lower()
 	# output changed string to user
 	print (whisper) 
 
